@@ -32,7 +32,7 @@ A full **project report** is included in this repository, detailing the methodol
 
 ##  Running the API ( In /covid_diagnosis_project_API)
 
-After training the model (or /covid_diagnosis_project_API/models already has trained model) in  you can run an API to serve predictions using **FastAPI**.
+After training the model (put model file on /covid_diagnosis_project_API/models and rename covid_cnn_model.h5) in  you can run an API to serve predictions using **FastAPI**.
 
 ### ▶ Steps to Run the API
 
