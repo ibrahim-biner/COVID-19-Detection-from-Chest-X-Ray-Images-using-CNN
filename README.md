@@ -53,9 +53,10 @@ After training the model (or /covid_diagnosis_project_API/models already has tra
    http://127.0.0.1:8000/docs
    ```
 
-4. Use the `/predict/` endpoint to send a chest X-ray image and receive prediction results (COVID-19 / Pneumonia / Normal).   rapor_ilk_sayfa
+4. Use the `/predict/` endpoint to send a chest X-ray image and receive prediction results (COVID-19 / Pneumonia / Normal).   
 
 
+---
 ![Report First Page](report/rapor_ilk_sayfa.jpg)
 
 You can download or view the full report [here](report/ML_Report.pdf).
