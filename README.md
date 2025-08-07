@@ -29,3 +29,29 @@ The dataset used in this project is the [**COVID‑19 Radiography Database**](ht
 
 A full **project report** is included in this repository, detailing the methodology, dataset preparation, model architecture, training process, and result analysis. You can find it under `report/`.
 
+
+##  Running the API ( In /covid_diagnosis_project_API)
+
+After training the model (or /covid_diagnosis_project_API/models already has trained model) in  you can run an API to serve predictions using **FastAPI**.
+
+### ▶ Steps to Run the API
+
+1. Make sure all dependencies are installed:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. Run the API server:
+   ```bash
+   uvicorn app.main:app --reload
+   ```
+
+   This will start the API at: [http://127.0.0.1:8000](http://127.0.0.1:8000)
+
+3. Access the interactive API documentation (Swagger UI) at:
+   ```
+   http://127.0.0.1:8000/docs
+   ```
+
+4. Use the `/predict/` endpoint to send a chest X-ray image and receive prediction results (COVID-19 / Pneumonia / Normal).
+
